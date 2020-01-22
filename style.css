@@ -1,0 +1,58 @@
+#board {
+    padding: 3em;
+    text-align: center;
+    
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    
+    
+  }
+  
+  .row > div:hover {
+   background-color: chocolate;
+    cursor: pointer;
+  }
+  
+  .row {
+    clear: both;
+    width: 302px;
+    margin: auto;
+  }
+
+  .row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .row > div:hover {
+    cursor: pointer;
+  }
+  
+  .row {
+    clear: both;
+    width: 308px;
+    margin: auto;
+ 
+  }
+  
+  .top {
+    border-bottom: 4px solid #8FB3BA;
+  }
+  
+  .center {
+    border-left: 4px solid #8FB3BA;
+    border-right: 4px solid #8FB3BA;
+  }
+  
+  .bottom {
+    border-top: 4px solid #8FB3BA;
+  }
+
+  
+  body {
+    background-color: honeydew;
