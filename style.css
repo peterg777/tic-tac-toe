@@ -35,22 +35,23 @@
   
   .row {
     clear: both;
-    width: 308px;
+    width: 302px;
     margin: auto;
  
   }
   
   .top {
-    border-bottom: 4px solid #8FB3BA;
+    border-bottom: 1px solid black;
   }
-  
-  .center {
-    border-left: 4px solid #8FB3BA;
-    border-right: 4px solid #8FB3BA;
-  }
-  
   .bottom {
-    border-top: 4px solid #8FB3BA;
+      border-top: 1px solid black;
+  }
+  .left {
+      border-right: 1px solid black;
+
+  }
+  .right {
+      border-left: 1px solid black;
   }
 
   
