@@ -10,11 +10,12 @@
     width: 100px;
     
     
+    
   }
   
   .row > div:hover {
    background-color: chocolate;
-    cursor: pointer;
+   cursor: pointer;
   }
   
   .row {
@@ -22,38 +23,26 @@
     width: 302px;
     margin: auto;
   }
-
-  .row > div {
-    float: left;
-    height: 100px;
-    width: 100px;
-  }
   
-  .row > div:hover {
-    cursor: pointer;
-  }
   
-  .row {
-    clear: both;
-    width: 302px;
-    margin: auto;
- 
-  }
   
   .top {
-    border-bottom: 1px solid black;
+      border-bottom: 1px solid black;
+
   }
   .bottom {
       border-top: 1px solid black;
   }
+
   .left {
       border-right: 1px solid black;
 
   }
+
   .right {
       border-left: 1px solid black;
   }
 
   
-  body {
+  .body {
     background-color: honeydew;

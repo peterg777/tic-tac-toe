@@ -1,61 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Peter's tic tac toe</title>
-    <link rel='stylesheet' href='style.css'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Peter's tic tac toe</title>
+  <link rel='stylesheet' href='style.css'>
 </head>
+
 <body>
 
-    <div id='board'>
-        <h1>Tic Tac Toe</h1>
-        <div class='row' id ='top row'>
+  <main id="board">
+    <h1>Tic Tac Toe</h1>
+    
+    <section class="row">
+      <div class="top left"></div>
+      <div class="top middle"></div>
+      <div class="top right"></div>
+    </section>
+    
+    <section class="row">
+      <div class="center left"></div>
+      <div class="center middle"></div>
+      <div class="center right"></div>
+    </section>
 
-          <div class='top left box' id='top-left'>
 
-          </div>
-          <div class='top center box' id='top-center'>
+    <section class="row">
+      <div class="bottom left"></div>
+      <div class="bottom middle"></div>
+      <div class="bottom right"></div>
+    </section>
 
-          </div>
-          <div class='top right box' id='top-right'>
 
-          </div>
+  </main>
 
-          </div>
-        <div class='row' id='middle row'>
-            
-          <div class='middle left box' id='middle-left'>
 
-          </div>
-          <div class='middle center box' id='middle-center'>
-            </div>
 
-            
-          <div class='middle right box' id='middle-right'>
-            </div>
-          
-         <div class='row' id='bottom row'>
-            </div>
 
-            
-          <div class='bottom left box' id='bottom-left'>
-            </div>
 
-          <div class='bottom center box' id='bottom-center'>
-            </div>
 
-        
-          <div class='bottom right box' id='bottom-right'>
-            </div>
-        </div>
-    </div>
 
-        
-          
-       
-
-    <script src='app.js'></script>
+  <script src='app.js'></script>
 </body>
+
 </html>
