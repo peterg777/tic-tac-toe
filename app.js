@@ -17,6 +17,10 @@ function cellClick() {
         console.log('Game Over')
         return;
     }
+    // Sorry no cheating!
+    if(event.target.textContent === 'X' || event.target.textContent === 'O'){
+        return;
+    }
     // draw player
     event.target.textContent = currentPlayer;
 
